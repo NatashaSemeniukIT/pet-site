@@ -1,0 +1,52 @@
+.form {
+
+  .title {
+    font-size: 1em;
+    color:rgb(10, 62, 141);
+
+    margin-top: 2px;
+  }
+
+  .input {
+    outline: none;
+    border: 1px solid #FECE03;
+
+    &:hover {
+      border: 1px solid rgb(92, 192, 11);
+    }
+
+    &:focus {
+      border: 2px solid rgb(92, 192, 11);
+      box-shadow: none;
+
+      -webkit-box-shadow: none;
+    }
+  }
+
+  .checkbox {
+    color:rgb(243, 49, 14);
+
+    &:focus {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    }
+  }
+
+  .button {
+    background-color: rgb(243, 49, 14);
+    border: none;
+    
+    margin: auto;
+
+    &:hover {
+      background-color: #b11a06;
+    }
+
+    &:focus {
+      background-color: rgb(92, 192, 11);
+      box-shadow: none;
+      
+      -webkit-box-shadow: none;
+    }
+  }
+}

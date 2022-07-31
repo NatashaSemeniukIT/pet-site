@@ -1,0 +1,29 @@
+.wrap {
+
+  .btnDark {
+
+    &:hover {
+      color: rgb(139, 139, 145);
+      opacity: 1;
+    }
+  }
+
+  .btnWhite {
+
+    &:hover {
+      color: #fff;
+      opacity: 1;
+    }
+  }
+
+  .btnDark,
+  .btnWhite {
+    font-weight: 900;
+    background-color: #000;
+    color: #FECE03;
+    border: 1px solid #FECE03;
+    opacity: 0.6;
+
+    padding: 6px;
+  }
+}

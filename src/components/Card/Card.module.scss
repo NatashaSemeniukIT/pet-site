@@ -1,0 +1,57 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  font-family: "Spicy Rice";
+  width: 250px;
+
+  .box {
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2em;
+    background-color: #FECE03;
+    color: #000;
+    border: 1px #FECE03 solid;
+    border-radius: 50%;
+  }
+
+  .img {
+    border: 1px solid #fff;
+    border-radius: 10px;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .title {
+    font-size: 1.5em;
+    font-weight: 900;
+    color: #FECE03;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .subtitle {
+    font-size: 1em;
+    color: #a7a1a1;
+
+    margin-top: 15px;
+
+    .subtitle_text {
+      color: green;
+
+      margin-left: 15px;
+    }
+  }
+}

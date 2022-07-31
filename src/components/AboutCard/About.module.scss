@@ -1,0 +1,76 @@
+.main {
+  position: relative;
+  min-height: calc(100vh - 60px);
+  font-family: 'Bungee Inline', cursive;
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+
+    margin: 20px 40px;
+
+    .text {
+      margin-left: 20px;
+      
+      .title {
+        max-width: 600px;
+        font-size: 2.5em;
+        font-weight: 900;
+        color: #FECE03;
+      }
+  
+      .subtitle {
+        font-size: 1.5em;
+        color: #a7a1a1;
+    
+        > span {
+          text-transform: uppercase;
+          color: #c09e09;;
+        }
+      }
+  
+      .details {
+        font-size: 1.5em;
+        color: #a7a1a1;
+
+        .text_date,
+        .text_rating {
+          color: #11a011;
+        }
+
+        .text_info {
+          color: #f80303;
+        }
+
+        .inner {
+          float: left;
+        }
+      }
+
+      .subject {
+        text-transform: uppercase;
+        font-size: 25px;
+        color: #c09e09;
+
+        margin-top: 50px;
+      }
+  
+      .desc {
+        max-width: 800px;
+        color: #a7a1a1;
+      }
+    }
+  }
+
+  .wrap {
+    position: absolute;
+    bottom: 10%;
+    right: 3%;
+
+    .pic_right {
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      
+    }
+  }
+}

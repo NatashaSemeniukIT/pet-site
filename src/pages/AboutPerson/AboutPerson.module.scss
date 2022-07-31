@@ -1,0 +1,74 @@
+.main { 
+  position: relative;
+  min-height: calc(100vh - 20px);
+  font-family: 'Bungee Inline', cursive;
+  
+  .container {
+    margin: 20px 40px;
+  
+    .inner {
+      display: flex;
+      justify-content: flex-start;
+        
+      .img {
+        box-shadow: 0 0 10px rgba(255,255,255,0.5);
+        width: 250px;
+      }
+  
+      .text {
+        margin-left: 50px;
+      
+        .title {
+          font-size: 4em;
+          font-weight: 900;
+          color: #FECE03;
+        }
+    
+        .subtitle {
+          font-size: 1.5em;
+          color: #a7a1a1;
+      
+          > span {
+            text-transform: uppercase;
+            color: #569c14;;
+          }
+        }
+
+        .subject {
+          font-size: 1.5em;
+          color: #a7a1a1;
+        }
+
+        .wrapper {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 30px;
+
+          margin-top: 20px;
+
+          .card_movie {
+            height: 200px;
+            width: 250px;
+
+            .title {
+              font-size: 1.5em;
+              font-weight: 600;
+              color: #bea73c;
+            }
+  
+            .subtitle {
+              font-size: 1.2em;
+              color: #a7a1a1;
+          
+              > span {
+                text-transform: uppercase;
+                color: #50a81c;;
+              }
+            }
+          }  
+        }
+      }
+    } 
+  }
+}

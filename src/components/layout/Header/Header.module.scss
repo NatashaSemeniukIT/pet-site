@@ -1,0 +1,37 @@
+.header {
+  background-color: #000;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin: 0 40px;
+
+    .croup_buttons {
+      display: flex;
+      gap: 10px;
+
+      .button_danger,
+      .button_secondary {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+.modal_title {
+  font-size: 2em;
+  color: #FECE03;
+}
+
+.btn_close {
+  color: #fff;
+  background-color: rgb(4, 163, 4);
+
+  &:hover {
+    background-color: #000;
+  }
+}

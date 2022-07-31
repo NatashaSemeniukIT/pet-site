@@ -1,0 +1,35 @@
+.container_slider {
+  position: relative;
+
+  .box {
+    font-size: 1.5em;
+    color: #767e86;
+
+    .title {
+      position: absolute;
+      top: 7%;
+      left: 10%;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 2.5em;
+      color: #FECE03;
+    }
+
+    .button {
+      position: absolute;
+      bottom: 10%;
+      right: 5%;
+      text-transform: uppercase;
+      font-weight: 700;
+
+      padding: 10px;
+    }
+  }
+
+  .slider_img{
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    height: 430px;
+    border-radius: 10px;
+  }
+}
